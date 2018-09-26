@@ -45,4 +45,9 @@ public class TalleyCounter
 	{
 		count--;
 	}
+	
+	public String toString()
+	{
+		return "count: " + count;
+	}
 }
